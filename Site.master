@@ -68,11 +68,11 @@
     <div class="toast" id="toast"></div>
 
     <script>
-        window.DHP = {
+       <%-- window.DHP = {
             currency: <%= Ui.JsString(Catalog.CurrencySymbol) %>,
             orderEmail: "orders@yourdomain.com", // TODO: put your real order email here
             products: <%= Ui.ProductsJson() %>
-        };
+        };--%>
     </script>
     <script src="js/site.js?v=1"></script>
 </body>
